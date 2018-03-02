@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="animate.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+
+		<!-- ****************************************************************************
+*                           Carousel en Bootstrap                          *
+****************************************************************************
+ -->	
+ 	<header id="header">
+        <nav class="navbar navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Mamitaa</a>
+                </div>				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#accueil">Accueil</a></li>
+                        <li><a href="#tableaux">Tableaux</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#formulaires">Formulaires</a></li>
+                        <li><a href="#bouttons">Bouttons</a></li> 
+                        <li><a href="#modals">Modals</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->		
+    </header><!--/header-->	
+	<div class="slider" id="accueil">		
+		<div id="about-slider">
+			<div id="carousel-slider" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators visible-xs">
+					<li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-slider" data-slide-to="1"></li>
+					<li data-target="#carousel-slider" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active">						
+						<img src="img/2.jpg" class="img-responsive" alt=""> 
+						<div class="carousel-caption">
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">								
+								<h2><span>Yaye Maty Gaye</span></h2>
+							</div>
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">								
+								<p>Also Known as Mamitaa</p>
+							</div>
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">								
+								<form class="form-inline">
+									<div class="form-group">
+										<button  class="btn btn-primary btn-lg" required="required">Demander son Numéro</button>
+									</div>
+									<div class="form-group">
+										<button  class="btn btn-primary btn-lg" required="required">Ou son Facebook</button>
+									</div>
+								</form>
+							</div>
+						</div>
+				    </div>
+			
+				    <div class="item">
+						<img src="img/8.jpg" class="img-responsive" alt=""> 
+						<div class="carousel-caption">
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.0s">								
+								<h2>Dafa Pank nak</h2>
+							</div>
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.3s">								
+								<p>Moytoul mou door lah</p>
+							</div>
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.6s">								
+								<form class="form-inline">
+									<div class="form-group">
+										<button  class="btn btn-primary btn-lg" required="required">Demander son Numéro</button>
+									</div>
+									<div class="form-group">
+										<button  class="btn btn-primary btn-lg" required="required">Ou son Facebook</button>
+									</div>
+								</form>
+							</div>
+						</div>
+				    </div> 
+				    <div class="item">
+						<img src="img/10.jpg" class="img-responsive" alt=""> 
+						<div class="carousel-caption">
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">								
+								<h2>But she is a hard Worker</h2>
+							</div>
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">								
+								<p>Ay Door la rek</p>
+							</div>
+							<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">								
+								<form class="form-inline">
+									<div class="form-group">
+										<button  class="btn btn-primary btn-lg" required="required">Demander son Numéro</button>
+									</div>
+									<div class="form-group">
+										<button  class="btn btn-primary btn-lg" required="required">Ou son Facebook</button>
+									</div>
+								</form>
+							</div>
+						</div>
+				    </div> 
+				</div>
+				
+				<a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+					<i class="fa fa-angle-left"></i> 
+				</a>
+				
+				<a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+					<i class="fa fa-angle-right"></i> 
+				</a>
+			</div> <!--/#carousel-slider-->
+		</div><!--/#about-slider-->
+	</div><!--/#slider-->
+<!------------------------------------ Fin Carousel-----------------------!-->
+
+
+		<!-- ****************************************************************************
+		*                           Barres de Navigation                           *
+		****************************************************************************
+		-->
+		<section class="panel">
+			<header class="panel-heading tab-bg-primary">
+				<ul class="nav nav-tabs">
+					<li>
+						<a data-toggle="tab" href="#home-2">
+							<i class="fa fa-home"></i>
+							Home
+						</a>
+					</li>
+					<li class="active">
+						<a data-toggle="tab" href="#about-2">
+							<i class="fa fa-user"></i>
+							About
+						</a>
+					</li>
+					<li class="">
+						<a data-toggle="tab" href="#contact-2">
+							<i class="fa fa-envelope-o"></i>
+							Contact
+						</a>
+					</li>
+				</ul>
+			</header>
+			
+		</section>
+		<!--tab nav start-->
+		<section class="panel">
+			<header class="panel-heading tab-bg-primary tab-right ">
+				<ul class="nav nav-tabs pull-right">
+					<li class="active">
+						<a data-toggle="tab" href="#home-2">
+							<i class="fa fa-home"></i>
+							Home
+						</a>
+					</li>
+					<li class="">
+						<a data-toggle="tab" href="#about-2">
+							<i class="fa fa-user"></i>
+							About
+						</a>
+					</li>
+					<li class="">
+						<a data-toggle="tab" href="#contact-2">
+							<i class="fa fa-envelope-o"></i>
+							Contact
+						</a>
+					</li>
+				</ul>
+				
+			</header>
+			
+		</section>
+		<!--tab nav start-->
+		
+		<!--navigation start-->
+		<nav class="navbar navbar-default" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Brand</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Link</a></li>
+					<li><a href="javascript:;">Link</a></li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li><a href="#">Separated link</a></li>
+							<li><a href="#">One more separated link</a></li>
+						</ul>
+					</li>
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="javascript:;">Link</a></li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li><a href="#">Separated link</a></li>
+						</ul>
+					</li>
+				</ul>
+				</div><!-- /.navbar-collapse -->
+			</nav>
+			<section class="panel">
+                          <header class="panel-heading tab-bg-primary ">
+                              <ul class="nav nav-tabs">
+                                  <li class="active">
+                                      <a data-toggle="tab" href="#home">Home</a>
+                                  </li>
+                                  <li class="">
+                                      <a data-toggle="tab" href="#about">About</a>
+                                  </li>
+                                  <li class="">
+                                      <a data-toggle="tab" href="#profile">Profile</a>
+                                  </li>
+                                  <li class="">
+                                      <a data-toggle="tab" href="#contact">Contact</a>
+                                  </li>
+                              </ul>
+                          </header>
+                          <div class="panel-body">
+                              <div class="tab-content">
+                                  <div id="home" class="tab-pane active">
+                                      Home
+                                  </div>
+                                  <div id="about" class="tab-pane">About</div>
+                                  <div id="profile" class="tab-pane">Profile</div>
+                                  <div id="contact" class="tab-pane">Contact</div>
+                              </div>
+                          </div>
+                      </section>
+                     <!-- ****************************************************************************
+*                                 fin navbar                               *
+****************************************************************************
+ -->
+			<!-- ****************************************************************************
+			*                                                                          *
+			*                          Différents tableaux en Bootstrap                *
+			****************************************************************************
+			-->
+			<div class="row" id="tableaux">
+				<div class="col-lg-12">
+					<h3 class="page-header"><i class="fa fa-table"></i>  Différents tableaux en Bootstrap </h3>
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+						<li><i class="fa fa-table"></i>Table</li>
+						<li><i class="fa fa-th-list"></i>Basic Table</li>
+					</ol>
+				</div>
+			</div>
+			<!-- page start-->
+			<div class="row">
+				<div class="col-sm-6">
+					<section class="panel">
+						<header class="panel-heading">
+							table
+						</header>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Larry</td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</div>
+				<div class="col-sm-6">
+					<section class="panel">
+						<header class="panel-heading">
+							table-striped
+						</header>
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Larry</td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<section class="panel">
+						<header class="panel-heading no-border">
+							table-bordered
+						</header>
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan="2">1</td>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@TwBootstrap</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td colspan="2">Larry the Bird</td>
+									<td>@twitter</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</div>
+				<div class="col-sm-6">
+					<section class="panel">
+						<header class="panel-heading">
+							table-hover
+						</header>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td colspan="2">Larry the Bird</td>
+									<td>@twitter</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Sumon</td>
+									<td>Mosa</td>
+									<td>@twitter</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<section class="panel">
+						<header class="panel-heading">
+							table-condensed
+						</header>
+						<table class="table table-condensed">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td colspan="2">Larry the Bird</td>
+									<td>@twitter</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>Ajay Patel</td>
+									<td>LA</td>
+									<td>@ajaypatel_aj</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</div>
+				<div class="col-sm-6">
+					<section class="panel">
+						<header class="panel-heading">
+							Contextual classes
+						</header>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Column heading</th>
+									<th>Column heading</th>
+									<th>Column heading</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="active">
+									<td>1</td>
+									<td>Column content</td>
+									<td>Column content</td>
+									<td>Column content</td>
+								</tr>
+								<tr class="success">
+									<td>2</td>
+									<td>Column content</td>
+									<td>Column content</td>
+									<td>Column content</td>
+								</tr>
+								<tr class="warning">
+									<td>3</td>
+									<td>Column content</td>
+									<td>Column content</td>
+									<td>Column content</td>
+								</tr>
+								<tr class="danger">
+									<td>4</td>
+									<td>Column content</td>
+									<td>Column content</td>
+									<td>Column content</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<section class="panel">
+						<header class="panel-heading">
+							table-responsive
+						</header>
+						<div class="table-responsive">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>#</th>
+										<th>Table heading</th>
+										<th>Table heading</th>
+										<th>Table heading</th>
+										<th>Table heading</th>
+										<th>Table heading</th>
+										<th>Table heading</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+										<td>Table cell</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<section class="panel">
+						<header class="panel-heading">
+							table-advance
+						</header>
+						
+						<table class="table table-striped table-advance table-hover">
+							<tbody>
+								<tr>
+									<th><i class="fa fa-user"></i> Full Name</th>
+									<th><i class="fa fa-calendar"></i> Date</th>
+									<th><i class="fa fa-envelope-o"></i> Email</th>
+									<th><i class="fa fa-location-arrow"></i> City</th>
+									<th><i class="fa fa-phone"></i> Mobile</th>
+									
+								</tr>
+								<tr>
+									<td>Angeline Mcclain</td>
+									<td>2004-07-06</td>
+									<td>dale@chief.info</td>
+									<td>Rosser</td>
+									<td>176-026-5992</td>
+									
+								</tr>
+								<tr>
+									<td>Sung Carlson</td>
+									<td>2011-01-10</td>
+									<td>ione.gisela@high.org</td>
+									<td>Robert Lee</td>
+									<td>724-639-4784</td>
+									
+								</tr>
+								<tr>
+									<td>Bryon Osborne</td>
+									<td>2006-10-29</td>
+									<td>sol.raleigh@language.edu</td>
+									<td>York</td>
+									<td>180-456-0056</td>
+									
+								</tr>
+								<tr>
+									<td>Dalia Marquez</td>
+									<td>2011-12-15</td>
+									<td>angeline.frieda@thick.com</td>
+									<td>Alton</td>
+									<td>690-601-1922</td>
+									
+								</tr>
+								<tr>
+									<td>Selina Fitzgerald</td>
+									<td>2003-01-06</td>
+									<td>moshe.mikel@parcelpart.info</td>
+									<td>Waelder</td>
+									<td>922-810-0915</td>
+									
+								</tr>
+								<tr>
+									<td>Abraham Avery</td>
+									<td>2006-07-14</td>
+									<td>harvey.jared@pullpump.org</td>
+									<td>Harker Heights</td>
+									<td>511-175-7115</td>
+									
+								</tr>
+								<tr>
+									<td>Caren Mcdowell</td>
+									<td>2002-03-29</td>
+									<td>valeria@hookhope.org</td>
+									<td>Blackwell</td>
+									<td>970-147-5550</td>
+									
+								</tr>
+								<tr>
+									<td>Owen Bingham</td>
+									<td>2013-04-06</td>
+									<td>thomas.christopher@firstfish.info</td>
+									<td>Rule</td>
+									<td>934-118-6046</td>
+									
+								</tr>
+								<tr>
+									<td>Ahmed Dean</td>
+									<td>2008-03-19</td>
+									<td>lakesha.geri.allene@recordred.com</td>
+									<td>Darrouzett</td>
+									<td>338-081-8817</td>
+									
+								</tr>
+								<tr>
+									<td>Mario Norris</td>
+									<td>2010-02-08</td>
+									<td>mildred@hour.info</td>
+									<td>Amarillo</td>
+									<td>945-547-5302</td>
+									
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</div>
+			</div>
+			<!-- fin tableaux-->
+			
+			<!-- ****************************************************************************
+			*                    Différents formulaires en Bootstrap                   *
+			****************************************************************************
+			-->
+			<hr class="divider" id="formulaires">
+			<div class="row">
+				<div class="col-lg-12">
+					<h3 class="page-header"><i class="fa fa-file-text-o"></i> Form elements</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<section class="panel">
+						<header class="panel-heading">
+							Form Elements
+						</header>
+						<div class="panel-body">
+							<form class="form-horizontal " method="get">
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Default</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Help text</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control">
+										
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Rounder</label>
+									<div class="col-sm-10">
+										<input type="text" class="form-control round-input">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Input focus</label>
+									<div class="col-sm-10">
+										<input class="form-control" id="focusedInput" type="text" value="This is focused...">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Disabled</label>
+									<div class="col-sm-10">
+										<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Placeholder</label>
+									<div class="col-sm-10">
+										<input type="text"  class="form-control" placeholder="placeholder">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label">Password</label>
+									<div class="col-sm-10">
+										<input type="password"  class="form-control" placeholder="">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-2 control-label">Static control</label>
+									<div class="col-lg-10">
+										<p class="form-control-static">email@example.com</p>
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+					<section class="panel">
+						<div class="panel-body">
+							<form class="form-horizontal " method="get">
+								<div class="form-group has-success">
+									<label class="control-label col-lg-2" for="inputSuccess">Input with success</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="inputSuccess">
+									</div>
+								</div>
+								<div class="form-group has-warning">
+									<label class="control-label col-lg-2" for="inputWarning">Input with warning</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="inputWarning">
+									</div>
+								</div>
+								<div class="form-group has-error">
+									<label class="control-label col-lg-2" for="inputError">Input with error</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="inputError">
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+					<section class="panel">
+						<div class="panel-body">
+							<form class="form-horizontal " method="get">
+								<div class="form-group">
+									<label class="control-label col-lg-2" for="inputSuccess">Control sizing</label>
+									<div class="col-lg-10">
+										<input class="form-control input-lg m-bot15" type="text" placeholder=".input-lg">
+										<input class="form-control m-bot15" type="text" placeholder="Default input">
+										<input class="form-control input-sm m-bot15" type="text" placeholder=".input-sm">
+										<select class="form-control input-lg m-bot15">
+											<option>Option 1</option>
+											<option>Option 2</option>
+											<option>Option 3</option>
+										</select>
+										<select class="form-control m-bot15">
+											<option>Option 1</option>
+											<option>Option 2</option>
+											<option>Option 3</option>
+										</select>
+										<select class="form-control input-sm m-bot15">
+											<option>Option 1</option>
+											<option>Option 2</option>
+											<option>Option 3</option>
+										</select>
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+					<section class="panel">
+						<div class="panel-body">
+							<form class="form-horizontal " method="get">
+								<div class="form-group">
+									<label class="control-label col-lg-2" for="inputSuccess">Checkboxes and radios</label>
+									<div class="col-lg-10">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="">
+												Option one is this and that&mdash;be sure to include why it's great
+											</label>
+										</div>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="">
+												Option one is this and that&mdash;be sure to include why it's great option one
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+												Option one is this and that&mdash;be sure to include why it's great
+											</label>
+										</div>
+										<div class="radio">
+											<label>
+												<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+												Option two can be something else and selecting it will deselect option one
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-lg-2" for="inputSuccess">Inline checkboxes</label>
+									<div class="col-lg-10">
+										<label class="checkbox-inline">
+											<input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+										</label>
+										<label class="checkbox-inline">
+											<input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+										</label>
+										<label class="checkbox-inline">
+											<input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-lg-2" for="inputSuccess">Selects</label>
+									<div class="col-lg-10">
+										<select class="form-control m-bot15">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+										<select multiple class="form-control">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="control-label col-lg-2" for="inputSuccess">Column sizing</label>
+									<div class="col-lg-10">
+										<div class="row">
+											<div class="col-lg-2">
+												<input type="text" class="form-control" placeholder=".col-lg-2">
+											</div>
+											<div class="col-lg-3">
+												<input type="text" class="form-control" placeholder=".col-lg-3">
+											</div>
+											<div class="col-lg-4">
+												<input type="text" class="form-control" placeholder=".col-lg-4">
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+				</div>
+			</div>
+			<!-- Basic Forms & Horizontal Forms-->
+			
+			<div class="row">
+				<div class="col-lg-6">
+					<section class="panel">
+						<header class="panel-heading">
+							Basic Forms
+						</header>
+						<div class="panel-body">
+							<form role="form">
+								<div class="form-group">
+									<label for="exampleInputEmail1">Email address</label>
+									<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputPassword1">Password</label>
+									<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputFile">File input</label>
+									<input type="file" id="exampleInputFile">
+									
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox"> Check me out
+									</label>
+								</div>
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</form>
+						</div>
+					</section>
+				</div>
+				<div class="col-lg-6">
+					<section class="panel">
+						<header class="panel-heading">
+							form-horizontal
+						</header>
+						<div class="panel-body">
+							<form class="form-horizontal" role="form">
+								<div class="form-group">
+									<label for="inputEmail1" class="col-lg-2 control-label">Email</label>
+									<div class="col-lg-10">
+										<input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+										
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="inputPassword1" class="col-lg-2 control-label">Password</label>
+									<div class="col-lg-10">
+										<input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-offset-2 col-lg-10">
+										<div class="checkbox">
+											<label>
+												<input type="checkbox"> Remember me
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-offset-2 col-lg-10">
+										<button type="submit" class="btn btn-danger">Sign in</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+					
+				</div>
+			</div>
+			<!-- Inline form-->
+			<div class="row">
+				<div class="col-lg-12">
+					<section class="panel">
+						<header class="panel-heading">
+							form-inline
+						</header>
+						<div class="panel-body">
+							<form class="form-inline" role="form">
+								<div class="form-group">
+									<label class="sr-only" for="exampleInputEmail2">Email address</label>
+									<input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+								</div>
+								<div class="form-group">
+									<label class="sr-only" for="exampleInputPassword2">Password</label>
+									<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox"> Remember me
+									</label>
+								</div>
+								<button type="submit" class="btn btn-primary">Sign in</button>
+							</form>
+						</div>
+					</section>
+				</div>
+			</div>
+			<!-- Fin Formulaire -->
+			<hr class="divider">
+			<!-- ****************************************************************************
+			*                            Buttons en Bootsrap                           *
+			****************************************************************************
+			-->
+			<div class="row" id="bouttons">
+				<div class="col-md-12">
+					<section class="panel">
+						<header class="panel-heading">
+							<h3>Les différents types de Buttons en Bootsrap (taille comportement couleur)</h3>
+							
+						</header>
+						<div class="panel-body">
+							<table class="table table-bordered table-striped">
+								<thead>
+									<tr>
+										<th>Button</th>
+										<th>Large Button</th>
+										<th>Small Button</th>
+										<th>Disabled Button</th>
+										<th>Button with Icon</th>
+										<th>Split Button</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><a class="btn btn-default" href="" title="">Default</a></td>
+										<td><a class="btn btn-default btn-lg" href="" title="">Default</a></td>
+										<td><a class="btn btn-default btn-sm" href="" title="">Default</a></td>
+										<td><a class="btn btn-default disabled" href="" title="">Default</a></td>
+										<td><a class="btn btn-default" href="" title="">
+											<span class="icon_cloud-upload_alt"></span> Default</a></td>
+											<td>
+												<div class="btn-group">
+													<a class="btn btn-default" href="" title="">Default</a>
+													<a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="" title=""><span class="caret"></span></a>
+													<ul class="dropdown-menu">
+														<li><a href="" title="">Action</a></li>
+														<li><a href="" title="">Another action</a></li>
+														<li><a href="" title="">Something else here</a></li>
+														<li class="divider"></li>
+														<li><a href="" title="">Separated link</a></li>
+													</ul>
+													</div><!-- /btn-group -->
+												</td>
+											</tr>
+											<tr>
+												<td><a class="btn btn-primary" href="" title="">Primary</a></td>
+												<td><a class="btn btn-primary btn-lg" href="" title="">Primary</a></td>
+												<td><a class="btn btn-primary btn-sm" href="" title="">Primary</a></td>
+												<td><a class="btn btn-primary disabled" href="" title="">Primary</a></td>
+												<td><a class="btn btn-primary" href="" title=""><span class="fa fa-edit"></span> Primary</a></td>
+												<td>
+													<div class="btn-group">
+														<a class="btn btn-primary" href="" title="">Primary</a>
+														<a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="" title=""><span class="caret"></span></a>
+														<ul class="dropdown-menu">
+															<li><a href="" title="">Action</a></li>
+															<li><a href="" title="">Another action</a></li>
+															<li><a href="" title="">Something else here</a></li>
+															<li class="divider"></li>
+															<li><a href="" title="">Separated link</a></li>
+														</ul>
+														</div><!-- /btn-group -->
+													</td>
+												</tr>
+												<tr>
+													<td><a class="btn btn-info" href="" title="">Info</a></td>
+													<td><a class="btn btn-info btn-lg" href="" title="">Info</a></td>
+													<td><a class="btn btn-info btn-sm" href="" title="">Info</a></td>
+													<td><a class="btn btn-info disabled" href="" title="">Info</a></td>
+													<td><a class="btn btn-info" href="" title=""><span class=" fa fa-home"></span> Info</a></td>
+													<td>
+														<div class="btn-group">
+															<a class="btn btn-info" href="" title="">Info</a>
+															<a class="btn btn-info dropdown-toggle" data-toggle="dropdown" href="" title=""><span class="caret"></span></a>
+															<ul class="dropdown-menu">
+																<li><a href="" title="">Action</a></li>
+																<li><a href="" title="">Another action</a></li>
+																<li><a href="" title="">Something else here</a></li>
+																<li class="divider"></li>
+																<li><a href="" title="">Separated link</a></li>
+															</ul>
+															</div><!-- /btn-group -->
+														</td>
+													</tr>
+													<tr>
+														<td><a class="btn btn-success" href="" title="">Success</a></td>
+														<td><a class="btn btn-success btn-lg" href="" title="">Success</a></td>
+														<td><a class="btn btn-success btn-sm" href="" title="">Success</a></td>
+														<td><a class="btn btn-success disabled" href="" title="">Success</a></td>
+														<td><a class="btn btn-success" href="" title=""><i class="fa fa-hand-o-up"></span> Success</a></td>
+														<td>
+															<div class="btn-group">
+																<a class="btn btn-success" href="" title="">Success</a>
+																<a class="btn btn-success dropdown-toggle" data-toggle="dropdown" href="" title=""><span class="caret"></span></a>
+																<ul class="dropdown-menu">
+																	<li><a href="" title="">Action</a></li>
+																	<li><a href="" title="">Another action</a></li>
+																	<li><a href="" title="">Something else here</a></li>
+																	<li class="divider"></li>
+																	<li><a href="" title="">Separated link</a></li>
+																</ul>
+																</div><!-- /btn-group -->
+															</td>
+														</tr>
+														<tr>
+															<td><a class="btn btn-warning" href="" title="">Warning</a></td>
+															<td><a class="btn btn-warning btn-lg" href="" title="">Warning</a></td>
+															<td><a class="btn btn-warning btn-sm" href="" title="">Warning</a></td>
+															<td><a class="btn btn-warning disabled" href="" title="">Warning</a></td>
+															<td><a class="btn btn-warning" href="" title=""><span class="fa fa-spinner"></span> Warning</a></td>
+															<td>
+																<div class="btn-group">
+																	<a class="btn btn-warning" href="" title="">Warning</a>
+																	<a class="btn btn-warning dropdown-toggle" data-toggle="dropdown" href="" title=""><span class="caret"></span></a>
+																	<ul class="dropdown-menu">
+																		<li><a href="" title="">Action</a></li>
+																		<li><a href="" title="">Another action</a></li>
+																		<li><a href="" title="">Something else here</a></li>
+																		<li class="divider"></li>
+																		<li><a href="" title="">Separated link</a></li>
+																	</ul>
+																	</div><!-- /btn-group -->
+																</td>
+															</tr>
+															<tr>
+																<td><a class="btn btn-danger" href="" title="">Danger</a></td>
+																<td><a class="btn btn-danger btn-lg" href="" title="">Danger</a></td>
+																<td><a class="btn btn-danger btn-sm" href="" title="">Danger</a></td>
+																<td><a class="btn btn-danger disabled" href="" title="">Danger</a></td>
+																<td><a class="btn btn-danger" href="" title=""><span class="fa fa-trash-o"></span> Danger</a></td>
+																<td>
+																	<div class="btn-group">
+																		<a class="btn btn-danger" href="" title="">Danger</a>
+																		<a class="btn btn-danger dropdown-toggle" data-toggle="dropdown" href="" title=""><span class="caret"></span></a>
+																		<ul class="dropdown-menu">
+																			<li><a href="" title="">Action</a></li>
+																			<li><a href="" title="">Another action</a></li>
+																			<li><a href="" title="">Something else here</a></li>
+																			<li class="divider"></li>
+																			<li><a href="" title="">Separated link</a></li>
+																		</ul>
+																		</div><!-- /btn-group -->
+																	</td>
+																</tr>
+																
+															</tbody>
+														</table>
+													</div>
+												</section>
+											</div>
+										</div>
+										<!-- ****************************************************************************
+										*                                fin Buttons                               *
+										****************************************************************************
+										-->
+										<hr class="divider">
+										<!-- ****************************************************************************
+										*                                                                          *
+										*                          les panels en bootstrap                         *
+										****************************************************************************
+										-->
+	<!-- ****************************************************************************
+*                                  modals                                  *
+****************************************************************************
+ -->
+
+ <section class="panel col-md-6" id="modals">
+      <header class="panel-heading">
+          Modal Dialogs
+      </header>
+      <div class="panel-body">
+          <a class="btn btn-success btn-lg" data-toggle="modal" href="#myModal">
+              Modal 1
+          </a>
+          <a class="btn btn-warning btn-lg" data-toggle="modal" href="#myModal2">
+              Modal 2
+          </a>
+          <a class="btn btn-danger btn-lg" data-toggle="modal" href="#myModal3">
+              Modal 3
+          </a>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                          <h4 class="modal-title">Modal Tittle</h4>
+                      </div>
+                      <div class="modal-body">
+
+                          Body goes here...
+
+                      </div>
+                      <div class="modal-footer">
+                          <button data-dismiss="modal" class="btn btn-default" type="button">Close</button>
+                          <button class="btn btn-success" type="button">Save changes</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- modal -->
+          <!-- Modal -->
+          <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                          <h4 class="modal-title">Modal Tittle</h4>
+                      </div>
+                      <div class="modal-body">
+
+                          Body goes here...
+
+                      </div>
+                      <div class="modal-footer">
+                          <button data-dismiss="modal" class="btn btn-default" type="button">Close</button>
+                          <button class="btn btn-warning" type="button"> Confirm</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- modal -->
+          <!-- Modal -->
+          <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                          <h4 class="modal-title">Modal Tittle</h4>
+                      </div>
+                      <div class="modal-body">
+
+                          Body goes here...
+
+                      </div>
+                      <div class="modal-footer">
+                          <button class="btn btn-danger" type="button"> Ok</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- modal -->
+
+      </div>
+  </section>
+  <!---------fin Modals -----------------------!-->
+ <!-- ****************************************************************************
+*                           Collapse en Bootstrap                          *
+****************************************************************************
+ -->
+ 			<div class="panel-group m-bot20 col-md-6" id="accordion">
+                          <div class="panel panel-default">
+                              <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                          Collapsible Group Item #1
+                                      </a>
+                                  </h4>
+                              </div>
+                              <div id="collapseOne" class="panel-collapse collapse in">
+                                  <div class="panel-body">
+                                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="panel panel-default">
+                              <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                          Collapsible Group Item #2
+                                      </a>
+                                  </h4>
+                              </div>
+                              <div id="collapseTwo" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="panel panel-default">
+                              <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                          Collapsible Group Item #3
+                                      </a>
+                                  </h4>
+                              </div>
+                              <div id="collapseThree" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    <!-- ****************************************************************************
+*                                 list-group                               *
+****************************************************************************
+ -->
+                      <div class="text-center">
+                <div class="row">
+                    <div class="col-sm-4 wow fadeInDown" data-wow-offset="0" data-wow-delay="0.2s">
+                        <ul list-group>
+                            <li class=" list-group-item active">
+                                <h2>Start Up</h2>
+                                <span>$6/Month</span>
+                            </li>
+                            <li class="list-group-item">5 Gb Disk Space</li>
+                            <li  class="list-group-item">1GB Dadicated Ram</li>
+                            <li class="list-group-item">10 Addon Domain</li>
+                            <li class="list-group-item">10 Email Account</li>
+                            <li class="list-group-item">24/7 Support</li>
+                            <li class=" list-group-item">
+                                <a href="" class="btn btn-primary">Sign up</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4 wow fadeInDown" data-wow-offset="0" data-wow-delay="0.6s">
+                        <ul class="list-group">
+                            <li class=" list-group-item active">
+                                <h2>Standard</h2>
+                                <span>$12/Month</span>
+                            </li>
+                            <li class="list-group-item">10 Gb Disk Space</li>
+                            <li class="list-group-item">2GB Dadicated Ram</li>
+                            <li class="list-group-item">20 Addon Domain</li>
+                            <li class="list-group-item">20 Email Account</li>
+                            <li class="list-group-item">24/7 Support</li>
+                            <li class=" list-group-item">
+                                <a href="" class="btn btn-primary">Sign up</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4  wow fadeInDown" data-wow-offset="0" data-wow-delay="0.9s">
+                        <ul class="list-group">
+                            <li class=" list-group-item active">
+                                <h2>Standard</h2>
+                                <span>$12/Month</span>
+                            </li>
+                            <li class="list-group-item">10 Gb Disk Space</li>
+                            <li class="list-group-item">2GB Dadicated Ram</li>
+                            <li class="list-group-item">20 Addon Domain</li>
+                            <li class="list-group-item">20 Email Account</li>
+                            <li class="list-group-item">24/7 Support</li>
+                            <li class="list-group-item">
+                                <a href="" class="btn btn-primary">Sign up</a>
+                            </li>
+                        </ul>
+                    </div>
+<!-- ****************************************************************************
+*                                  gallery                                 *
+****************************************************************************
+ -->
+                   <div id="gallery">
+		<div class="container">
+			<div class="text-center">
+				<h3>Gallery</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit<br>amet consectetur adipisicing elit</p>
+			</div>
+			<div class="row">
+				<figure class="effect-chico">						
+					<div class="col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+						<a href="img/2.jpg" >
+						<img src="img/2.jpg" class="img-responsive" alt="">
+						</a>						
+					</div>
+				</figure>
+				<figure class="effect-chico">
+					<div class="col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+						<a href="img/8.jpg" >
+						<img src="img/8.jpg" class="img-responsive" alt="">
+						</a>
+					</div>
+				</figure>	
+				<figure class="effect-chico">
+					<div class="col-md-3 wow fadeInDown" data-wow-offset="0" data-wow-delay="0.3s">
+						<a href="img/10.jpg" >
+						<img src="img/10.jpg" class="img-responsive" alt="">
+						</a>
+					</div>
+				</figure>
+				<figure class="effect-chico">
+					<div class="col-md-3 wow fadeInDown" data-wow-offset="0" data-wow-delay="0.3s">
+						<a href="img/15.jpg" >
+						<img src="img/15.jpg" class="img-responsive" alt="">
+						</a>
+					</div>	
+				</figure>
+			</div>
+		</div>
+		<div class="gallery">
+			<div class="container">
+				<div class="row">
+					<figure class="effect-chico">
+						<div class="col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+							<a href="img/12.jpg" >
+							<img src="img/12.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
+					</figure>	
+					<figure class="effect-chico">
+						<div class="col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+							<a href="img/9.jpg" >
+							<img src="img/9.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
+					</figure>	
+					<figure class="effect-chico">
+						<div class="col-md-3 wow fadeInDown" data-wow-offset="0" data-wow-delay="0.3s">
+							<a href="img/19.jpg" >
+							<img src="img/19.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
+					</figure>	
+					<figure class="effect-chico">
+						<div class="col-md-3 wow fadeInDown" data-wow-offset="0" data-wow-delay="0.3s">
+							<a href="img/16.jpg" >
+							<img src="img/16.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</div><!--/#gallery-->
+
+                  
+
+		<script src="jquery-2.1.1.min.js"></script>
+		<script src="bootstrap.min.js"></script>
+		<script src="wow.js"></script>
+			
+		<script type="text/javascript">
+		new WOW().init();
+	</script>
+	</body>
+</html>
